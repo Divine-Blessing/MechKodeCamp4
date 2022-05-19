@@ -1,0 +1,2163 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;700;800&display=swap');
+*, ::before, ::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+/* NAVBAR */
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+}
+nav .logo{
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .logo img{
+    height: 20px;
+}
+nav .links a{
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+}
+nav .links a:hover{
+    font-weight: 600;
+}
+nav hr{
+    width: 1px;
+    height: 30px;
+    background-color: black;
+    border: transparent;
+}
+nav img{
+    height: 29px;
+    margin: 0 15px 0 20px;
+}
+nav h6{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+nav h5{
+    font-weight: 600;
+    font-size: 18px;
+}
+/* END OF NAVBAR */
+/* FIRST SECTION */
+#one{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#one .left{
+    min-height: 100vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+}
+#one .left h1{
+    font-size: 39px;
+    width: 85%;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+#one .left input{
+    width: 150px;
+    height: 45px;
+    border-radius: 12px;
+    border: transparent;
+    background-color: #FF6433;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+#one .left .down{
+    display: flex;
+    align-items: center;
+}
+#one .left .down img{
+    height: 35px;
+    margin-right: 15px;
+}
+#one .left .down h3{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#one .left .down h2{
+    font-size: 18px;
+    font-weight: 500;
+}
+#one .right{
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#one .right .back, #one .right .backk{
+    position: absolute;
+    width: 220px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+#one .right .back{
+    left: 660px;
+    top: 250px;
+}
+#one .right .backk{
+    bottom: 100px;
+    right: 230px;
+}
+#one .right .up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: white;
+}
+#one .right .up .lef{
+    color: white;
+    background-color:#5CBA99;
+    height: 43px;
+    width: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 43px;
+    margin-right: 10px;
+}
+#one .right .up h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+#one .right .up .lef h6{
+    font-size: 15px;
+    font-weight: 600;
+}
+#one .right .up .lef span{
+    font-weight: 400;
+    font-size: 12px;
+}
+#one .right .mid img{
+    height: 430px;
+    margin-left: 20px;
+}
+#one .right .down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    border-radius: 30px;
+    bottom: 100px;
+    right: 230px;
+}
+#one .right .down h6{
+    font-size: 15px;
+    font-weight: 600;
+}
+#one .right .down h5{
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+#one .right .down img{
+    height: 20px;
+    margin-left: 10px;
+}
+/* END OF FIRST SECTION */
+/* SECOND SECTION */
+#two{
+    min-height: 100vh;
+    background-color: #E2E6E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#two .left, #two .right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#two .left{
+    padding-left: 150px;
+}
+#two .left h1{
+    font-size: 43px;
+    width: 90%;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+#two .left .down{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#two .left .down .lef{
+    margin-right: 30px;
+}
+#two .left .lef .one, #two .left .lef .two, #two .left .lef .three{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#two .left .down h2{
+    font-weight: 500;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+#two .left .down p{
+    width: 67%;
+    line-height: 25px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+#two .left a{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+}
+#two .left a img{
+    height: 15px;
+    width: 39px;
+    margin-left: 5px;
+}
+#two .right h1{
+    font-size: 35px;
+    width: 60%;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#two .right input{
+    margin-bottom: 5px;
+    width: 490px;
+    height: 48px;
+    border: none;
+}
+#two .right input::placeholder{
+    padding: 5px 20px;
+}
+#two .right button{
+    background-color: #FF6433;
+    color: white;
+    font-size: 18px;
+    border: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+/* END OF SECOND SECTION */
+/* THIRD SECTION */
+#three{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#three .left{
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+}
+#three .left h1{
+    font-size: 39px;
+    width: 80%;
+    line-height: 45px;
+    margin-bottom: 18px;
+}
+#three .left p{
+   width: 90%; 
+   line-height: 25px;
+   font-size: 16px;
+   margin-bottom: 30px;
+}
+#three .left input{
+    background-color: #FF6433;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 17px;
+    letter-spacing: .5px;
+}
+#three .right{
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#three .right .lef{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+#three .right .lef h3{
+    background-color:#661CE7;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+#three .right .lef img{
+    height: 60px;
+    margin: 10px 0;
+}
+#three .right h2{
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+#three .right  p{
+    width: 50%;
+    line-height: 23px;
+    margin-bottom: 25px;
+}
+/* END OF THIRD SECTION */
+/* FOURTH SECTION */
+#four{
+    min-height: 100vh;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#four h6{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+#four h1{
+    font-size: 43px;
+    width: 50%;
+    line-height: 55px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#four .sec h6{
+    font-size: 23px;
+    font-weight: 500;    
+    margin-top: 15px;
+}
+#four .box{
+    width: 220px;
+    height: 180px;
+    background-color: white;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#four .top, #four .bottom{
+    display: flex;
+}
+#four .bop{
+    display: flex;
+}
+#four img{
+    height: 40px;
+}
+#four .top .third{
+    background-color: #FF6433;
+    color: white;
+}
+#four a{
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    display: flex;
+    width: 315px;
+    margin-left: 600px;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+}
+#four a img{
+    height: 20px;
+    width: 50px;
+    margin: 0 0 0 15px;
+}
+/* END OF FOURTH SECTION */
+/* FIFTH SECTION */
+#five{
+    min-height: 50vh;
+    display: flex;
+}
+#five .left{
+    width: 50%;
+    background-image: url(./img/car.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#five .right{
+    width: 50%;
+    background-image: url(./img/ovGrEUgrkyE.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#five .box{
+    position: absolute;
+    background-color: #FF6433;
+    color: white;
+    width: 460px;
+    height: 348px;
+    left: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+#five .box h3{
+    font-size: 30px;
+    font-weight: 500;
+    width: 100%;
+}
+#five .box input{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 45px;
+    width: 120px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: .5px;
+}
+/* END OF FIFTH SECTION */
+/* SIXTH SECTION */
+#six{
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F2F2F2;    
+}
+#six .first, #six .second, #six .third, #six .fourth{
+    padding: 0 50px;
+}
+#six h1{
+    font-size: 28px;
+    font-weight: 700;
+    color: #661CE7;
+    margin-bottom: 8px;
+}
+#six h2{
+    font-weight: 500;
+    font-size: 18px;
+}
+/* END OF SIXTH SECTION */
+/* SEVENTH SECTION */
+#seven{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+#seven h1{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+#seven .top{
+    display: flex;
+    margin-bottom: 30px;
+}
+#seven .bottom{
+    display: flex;
+}
+#seven span{
+    margin: 0 20px;
+}
+#seven img{
+    height: 100px;
+}
+/* END OF SEVENTH SECTION */
+
+/* EIGHT SECTION */
+#eight{
+    min-height: 100vh;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#eight h1{
+    font-size: 37px;
+    font-weight: 500;
+    width: 45%;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+#eight .box{
+    display: flex;
+    margin-bottom: 40px;
+}
+#eight .left, #eight .right{
+    background-color: white;
+    color: black;
+    width: 400px;
+    height: 250px;
+    margin: 0 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+}
+#eight .up{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+#eight .up img{
+    height: 50px;
+    margin-right: 15px;
+}
+#eight h2{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    width: 85%;
+}
+#eight h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+#eight h4{
+    font-weight: lighter;
+    font-size: 15px;
+    color: #939191;
+}
+#eight .images img{
+    margin: 0 2px;
+    height: 3px;
+}
+#eight .next{
+    display: flex;
+    margin-top: 15px;
+    width: 850px;
+    justify-content: flex-end;
+}
+#eight .next img{
+    margin: 0 10px;
+}
+#eight .next .a{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+#eight .next .b{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* END OF EIGHT SECTION */
+
+/* NINTH SECTION */
+#nine{
+    min-height: 100vh;
+    background-color: #E2E6E9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#nine h1{
+    margin-bottom: 40px;
+    font-size: 35px;
+    font-weight: 600;
+}
+#nine .first{
+    background-color: white;
+    width: 800px;
+    height: 140px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+#nine .first .le{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+#nine h2{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#nine p{
+    line-height: 23px;
+    font-size: 15px;
+    width: 90%;
+}
+#nine .second{
+    margin: 5px 0;
+    height: 70px;
+    background-color: white;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+#nine span{
+    background-color: #FF6433;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* NINGHT SECTION */
+
+/* TENTH SSECTION */
+#ten{
+    min-height: 60vh;
+    background-color: #1E1B1B;
+    opacity: 0.98;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ten h1{
+    font-size: 40px;
+    font-weight: 500;
+    width: 60%;
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+#ten .icons img{
+    margin-right: 13px;
+    height: 20px;
+}
+#ten h3{
+    color: white;
+    opacity: 0.6;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+#ten h2{
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+/* END OF TENTH SECTION */
+
+/* FOOTER SECTION */
+#footer{
+    background-color: #1E1B1B;
+    min-height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer .logo{
+    width: 350px;
+    display: flex;
+    justify-content: flex-end;
+}
+#footer img{
+    height: 20px;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    letter-spacing: .8px;
+    font-weight: 500;
+}
+#footer a:hover{
+    font-weight: 600;
+}
+#footer .copy{
+    width: 400px;
+}
+#footer h1{
+    color: #939191;
+    font-weight: lighter;
+    font-size:16px;
+}
+/* END OF FOOTER SECTION */
+
+
+/* SERVICES PAGE -- PAGE FOR SERVICES */
+/*  FIRST SECTION -- OUR SERVICES */
+#our{
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#our .cent{
+    height: 350px;
+    width: 700px;
+}
+#our .cent img{
+    height: 350px;
+}
+#our .ontop{
+    position: absolute;
+    right: 250px;
+    background-color: #1E1B1B;
+    height: 350px;
+    width: 450px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
+}
+#our h1{
+    color: #F2F2F2;
+    font-size: 35px;
+    letter-spacing: .8px;
+    margin-bottom: 20px;
+}
+#our h2{
+    font-size: 17px;
+    font-weight: lighter;
+    margin-bottom: 27px;
+    line-height: 28px;
+}
+#our button{
+    background-color: #FF6433;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    width: 150px;
+}
+/* END OF FIRST SECTION -- OUR SERVICES */
+
+/* SECOND SECTION -- AUTO SECTION */
+#auto{
+    background-color: #F5F5F5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#auto .left{
+    background-color: white;
+    height: 500px;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+}
+#auto .left img{
+    height: 180px;
+    width: 350px;
+}
+#auto h1{
+    margin: 20px 0;
+    font-size: 28px;
+    letter-spacing: 0.5px;
+}
+#auto p{
+    color: #232536;
+    opacity: 0.8;
+    line-height: 25px;
+    width: 85%;
+    margin-bottom: 25px;
+}
+#auto .left a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+}
+#auto .left a img{
+    height: 18px;
+    width: 40px;
+    margin-left: 10px;
+}
+#auto .mid{
+    margin: 0 30px;
+}
+#auto .box{
+    height: 152px;
+    width: 200px;
+    background-color: white;
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#auto .box h3{
+    margin-top: 15px;
+    font-weight: lighter;
+}
+#auto .mid .one{
+    background-color: #FF6433;
+    color: white;
+}
+#auto .box img{
+    height: 30px;
+    width: 30px;
+}
+/* END OF SECOND SECTION -- AUTO SECTION */
+
+/* THIRD SECTION -- HOW SECTION */
+#how{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#how .left{
+    width: 50%;
+    padding-left: 200px;
+}
+#how .las{
+    display: flex;
+}
+#how h1{
+    font-size: 40px;
+    font-weight: lighter;
+    width: 90%;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+#how h2{
+    font-size: 20px;
+    font-weight: 400;
+    width: 80%;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+#how span{
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00D289;
+    margin-right: 20px;
+}
+#how span img{
+    height: 15px;
+}
+#how .right{
+    width: 50%;
+}
+#how .right img{
+    height: 380px;
+    margin-right: 10px;
+}
+/* END OF THIRD SECTION -- HOW SECTION */
+
+/* FOURTH SECTION -- CAR SECTION */
+#car{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+#car .left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+#car .left img{
+    margin-right: 10px;
+    height: 420px;
+}
+#car .right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#car h1{
+    font-size: 35px;
+    font-weight: 600;
+    width: 60%;
+    line-height: 45px;
+    margin-bottom: 25px;
+}
+#car h2{
+    font-weight: lighter;
+    color: #232536;
+    opacity: 0.6;
+    font-size: 18px;
+    line-height: 30px;
+    width: 70%;
+    margin-bottom: 30px;
+}
+#car input{
+    height: 40px;
+    width: 150px;
+    background-color: #FF6433;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/* END OF FOURTH SECTION -- CAR SECTION  */
+
+/* END OF SERVICES PAGE -- PAGE FOR SERVICES */
+
+
+/* TABLET MODE */
+@media (max-width: 768px){
+ /* TOP NAVBAR */
+nav .logo{
+    width: 210px;
+}
+nav .logo img{
+    height: 18px;
+}
+nav .links a{
+    margin: 0 8px;
+    font-size: 17px;
+}
+nav img{
+    height: 25px;
+    margin: 0 8px;
+}
+nav h6{
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+nav h5{
+    font-size: 15px;
+}
+/* TOP NAVBAR */
+
+/* INDEX.HTML -- INDEX.HTML */
+/* SECTION ONE -- FIRST SECTION */
+#one .left{
+    padding-left: 50px;
+}
+#one .left h1{
+    font-size: 32px;
+    width: 90%;
+    line-height: 38px;
+}
+#one .left input{
+    font-size: 16px;
+}
+#one .left .down h3{
+    font-size: 15px;
+}
+#one .left .down h2{
+    font-size: 16px;
+}
+#one .right .back, #one .right .backk{
+    display: none;
+}
+#one .right .mid img{
+    height: 350px;
+    margin-left: 13px;
+}
+/* END OF SECTION ONE -- FIRST SECTION */
+/* SECTION TWO -- SECOND SECTION */
+#two .left{
+    padding-left: 40px;
+}
+#two .left h1{
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+#two .left .down .lef{
+    margin-right: 15px;
+}
+#two .left .lef .one, #two .left .lef .two, #two .left .lef .three{
+    margin-bottom: 90px;
+}
+#two .left .down h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+#two .left .down p{
+    width: 80%;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+#two .left a{
+    font-size: 16px;
+}
+#two .left a img{
+    height: 10px;
+    width: 35px;
+}
+#two .right h1{
+    font-size: 30px;
+    width: 80%;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+#two .right input{
+    margin-bottom: 10px;
+    width: 300px;
+    height: 50px;
+}
+#two .right button{
+    font-size: 16px;
+    width: 150px;
+}
+/* END OF SECTION TWO -- SECOND SECTION */
+/* SECTION THREE -- THIRD SECTION */
+#three .left{
+    padding-left: 60px;
+}
+#three .left h1{
+    font-size: 33px;
+    line-height: 40px;
+}
+#three .left input{
+    width: 130px;
+    height: 50px;
+}
+#three .right .lef{
+    margin-right: 25px;
+}
+#three .right .lef img{
+    margin: 5px 0;
+}
+#three .right h2{
+    font-size: 20px;
+}
+#three .right  p{
+    width: 80%;
+}
+/* END OF SECTION THREE -- THIRD SECTION */
+/* SECTION FOUR -- FOURTH SECTION */
+#four h6{
+    font-size: 25px;
+    margin: 17px 0;
+}
+#four h1{
+    font-size: 35px;
+    width: 80%;
+    line-height: 45px;
+}
+#four .sec h6{
+    font-size: 20px;   
+}
+#four .box{
+    width: 150px;
+    height: 130px;
+}
+#four img{
+    height: 30px;
+}
+#four a{
+    margin-left: 380px;
+    font-size: 20px;
+}
+#four a img{
+    height: 15px;
+    width: 40px;
+}
+/* END OF SECTION FOUR -- FOURTH SECTION */
+/* SECTION FIVE -- FIFTH SECTION */
+#five .box{
+    width: 360px;
+    height: 312px;
+    left: 200px;
+    padding-left: 30px;
+}
+#five .box h3{
+    font-size: 25px;
+    width: 80%;
+}
+#five .box input{
+    letter-spacing: 1px;
+}
+/* END OF SECTION FIVE -- FIFTH SECTION */
+/* SECTION SIX -- SIXTH SECTION */
+#six .first, #six .second, #six .third, #six .fourth{
+    padding: 0 40px;
+}
+#six h1{
+    font-size: 26px;
+}
+#six h2{
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: .8px;
+}
+/* END OF SECTION SIX -- SIXTH SECTION */
+/* SECTION SEVEN -- SEVENTH SECTION */
+#seven{
+    min-height: 80vh;
+}
+#seven h1{
+    letter-spacing: .7px;
+    font-size: 28px;
+    margin-bottom: 28px;
+}
+#seven .top{
+    margin-bottom: 5px;
+    display: block;
+}
+#seven .bottom{
+    display: block;
+}
+#seven span{
+    margin: 0 10px;
+}
+#seven img{
+    height: 90px;
+}
+/* END OF SECTION SEVEN -- SEVENTH SECTION */
+
+/* SECTION EIGHT -- EIGHT SECTION */
+#eight h1{
+    font-size: 35px;
+    width: 75%;
+    line-height: 40px;
+    margin-bottom: 45px;
+}
+#eight .box{
+    display: flex;
+    margin-bottom: 40px;
+}
+#eight .left, #eight .right{
+    width: 340px;
+    height: 200px;
+    margin: 0 10px;
+    padding-left: 35px;
+}
+#eight .up{
+    margin-bottom: 10px;
+}
+#eight .up img{
+    height: 40px;
+    margin-right: 10px;
+}
+#eight h2{
+    width: 95%;
+}
+#eight h3{
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+#eight .images img{
+    margin: 0 1px;
+    height: 2px;
+}
+#eight .next{
+    margin-top: 10px;
+    width: 630px;
+}
+#eight .next img{
+    margin: 0 6px;
+}
+#eight .next .a{
+    height: 45px;
+    width: 45px;
+    border-radius: 45px;
+    margin-right: 10px;
+}
+#eight .next .b{
+    height: 45px;
+    width: 45px;
+    border-radius: 45px;
+}
+/* END OF SECTION EIGHT -- EIGHT SECTION */
+
+/* SECTION NINE -- NINTH SECTION */
+#nine h1{
+    margin-bottom: 35px;
+    font-size: 33px;
+}
+#nine .first{
+    width: 600px;
+    height: 140px;
+}
+#nine .first .le{
+    width: 600px;
+}
+#nine h2{
+    font-size: 20px;
+}
+#nine .second{
+    height: 65px;
+    width: 600px;
+    padding: 20px;
+}
+/* END OF SECTION NINE -- NINTH SECTION */
+
+/* SECTION TEN -- TENTH SECTION */
+#ten .left{
+    padding-left: 30px;
+}
+#ten h1{
+    font-size: 33px;
+    width: 85%;
+    line-height: 43px;
+}
+#ten h3{
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+#ten h2{
+    margin-bottom: 35px;
+    font-size: 18.5px;
+    letter-spacing: 1.5px;
+}
+/* END OF SECTION TEN -- TENTH SECTION */
+
+/* SECTION FOOTER -- FOOTER SECTION */
+#footer .logo{
+    width: 100px;
+}
+#footer img{
+    height: 20px;
+}
+#footer .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer a{
+    margin: 0 10px;
+}
+#footer .copy{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+}
+#footer h1{
+    font-size: 15px;
+}
+/* END OF SECTION FOOTER -- FOOTER SECTION */
+
+/* END OF INDEX.HTML -- INDEX.HTML */
+
+
+/* SERVICES.HTML -- SERVICES.HTML */
+/*  FIRST SECTION -- OUR SERVICES */
+#our .cent{
+    height: 300px;
+}
+#our .cent img{
+    height: 300px;
+}
+#our .ontop{
+    right: 50px;
+    height: 300px;
+    width: 380px;
+}
+#our h1{
+    font-size: 33px;
+    margin-bottom: 13px;
+}
+#our h2{
+    letter-spacing: .5px;
+    margin-bottom: 20px;
+}
+#our button{
+    height: 40px;
+    width: 130px;
+}
+/* END OF FIRST SECTION -- OUR SERVICES */
+
+/* SECOND SECTION -- AUTO SECTION */
+#auto .left{
+    height: 440px;
+    width: 350px;
+    padding-left: 25px;
+    margin-left: 20px;
+}
+#auto .left img{
+    height: 120px;
+    width: 260px;
+}
+#auto h1{
+    margin: 15px 0;
+    font-size: 25px;
+}
+#auto p{
+    width: 90%;
+    margin-bottom: 23px;
+}
+#auto .left a{
+    font-size: 16px;
+}
+#auto .left a img{
+    height: 20px;
+    width: 50px;
+}
+#auto .mid{
+    margin: 0 15px;
+}
+#auto .box{
+    height: 132px;
+    width: 160px;
+    margin-bottom: 15px;
+}
+/* END OF SECOND SECTION -- AUTO SECTION */
+
+/* THIRD SECTION -- HOW SECTION */
+#how .left{
+    padding-left: 30px;
+    width: 45%;
+}
+#how h1{
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 25px;
+}
+#how h2{
+    font-size: 18px;
+    line-height: 27px;
+}
+#how span{
+    margin-right: 15px;
+}
+#how span img{
+    height: 13px;
+}
+#how .right{
+    display: flex;
+    width: 55%;
+}
+#how .right img{
+    height: 400px;
+    width: 200px;
+    margin-right: 5px;
+}
+/* END OF THIRD SECTION -- HOW SECTION */
+
+/* FOURTH SECTION -- CAR SECTION */
+#car .left{
+    width: 48%;
+    display: flex;
+    margin-left: 15px;
+}
+#car .left img{
+    margin-right: 8px;
+    height: 380px;
+    width: 180px;
+}
+#car .right{
+    width: 62%;
+    padding-left: 10px;
+}
+#car h1{
+    font-size: 27px;
+    width: 90%;
+    line-height: 37px;
+    margin-bottom: 18px;
+}
+#car h2{
+    font-size: 18px;
+    line-height: 28px;
+    width: 95%;
+    margin-bottom: 25px;
+}
+#car input{
+    height: 37px;
+    width: 140px;
+}
+/* END OF FOURTH SECTION -- CAR SECTION  */
+/* END OF SERVICES.HTML -- SERVICES.HTML */
+
+}
+/* END OF TABLET MODE */
+
+
+/* MOBILE MODE */
+@media (max-width: 425px){
+/* NAVBAR */
+nav{
+    width: 365px;
+}
+nav .logo{
+    width: 80px;
+}
+nav .logo img{
+    height: 15px;
+    display: flex;
+}
+nav .links{
+    display: flex;
+    width: 300px;
+}
+nav .links a{
+    margin: 0 5px;
+    font-size: 14px
+}
+nav hr{
+    display: none;
+}
+nav img{
+    display: none;
+}
+nav .call{
+    display: none;
+}
+/* END OF NAVBAR */
+
+/* INDEX.HTML -- INDEX.HTML */
+/* SECTION ONE -- FIRST SECTION */
+#one{
+    flex-direction: column;
+}
+#one .left{
+    min-height: 50vh;
+    width: 100%;
+    padding-left: 30px;
+}
+#one .left h1{
+    font-size: 20px;
+    width: 80%;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+#one .left input{
+    font-size: 15px;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+#one .left .down img{
+    height: 25px;
+    margin-right: 10px;
+}
+#one .left .down h3{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+#one .left .down h2{
+    font-size: 15px;
+}
+#one .right{
+    width: 100%;
+    min-height: 40vh;
+    justify-content: flex-start;
+    align-items: center;
+}
+#one .right .mid img{
+    height: 200px;
+    width: 250px;
+    margin-left: 30px;
+}
+/* END OF SECTION ONE -- FIRST SECTION */
+
+/* SECTION TWO -- SECOND SECTION */
+#two{
+    flex-direction: column;
+}
+#two .left, #two .right{
+    width: 100%;
+}
+#two .left{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+#two .left h1{
+    font-size: 25px;
+    width: 80%;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+#two .left .down{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#two .left .down .lef{
+    margin-right: 15px;
+}
+#two .left .lef .one, #two .left .lef .two, #two .left .lef .three{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    margin-bottom: 80px;
+}
+#two .left img{
+    height: 20px;
+    width: 20px;
+}
+#two .left .down h2{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+#two .left .down p{
+    width: 65%;
+    line-height: 18px;
+    margin-bottom: 27px;
+    font-size: 14px;
+}
+#two .left a{
+    font-size: 13px;
+}
+#two .left a img{
+    height: 11px;
+    width: 35px;
+}
+#two .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+#two .right h1{
+    font-size: 21px;
+    width: 70%;
+    line-height: 27px;
+    margin-top: 20px;
+}
+#two .right input{
+    margin-bottom: 7px;
+    width: 280px;
+    height: 35px;
+}
+#two .right input::placeholder{
+    font-size: 11px;
+}
+#two .right button{
+    font-size: 12px;
+    width: 110px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+/* END OF SECTION TWO -- SECOND SECTION */
+
+/* SECTION THREE -- THIRD SECTION */
+#three{
+    flex-direction: column;
+}
+#three .left{
+    width: 100%;
+    min-height: 50vh;
+    padding-left: 25px;
+}
+#three .left h1{
+    font-size: 23px;
+    width: 70%;
+    line-height: 30px;
+    margin-bottom: 13px;
+}
+#three .left p{
+   width: 70%; 
+   line-height: 20px;
+   font-size: 14px;
+   margin-bottom: 20px;
+}
+#three .left input{
+    width: 100px;
+    height: 38px;
+    font-size: 14px;
+}
+#three .right{
+    width: 100%;
+    min-height: 50vh;
+}
+#three .right .lef{
+    margin-right: 15px;
+    margin-left: 20px;
+}
+#three .right .lef h3{
+    font-size: 14px;
+    height: 28px;
+    width: 28px;
+    border-radius: 28px;
+}
+#three .right .lef img{
+    height: 45px;
+    margin: 10px 0;
+}
+#three .right h2{
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+#three .right  p{
+    width: 65%;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 25px;
+}
+/* END OF SECTION THREE -- THIRD SECTION */
+
+/* SECTION FOUR -- FOURTH SECTION */
+/* #four{
+    min-height: 100vh;
+    background-color: #F2F2F2;
+} */
+#four h6{
+    font-size: 20px;
+}
+#four h1{
+    font-size: 25px;
+    width: 70%;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+#four .sec h6{
+    font-size: 16px;   
+}
+#four .box{
+    width: 130px;
+    height: 110px;
+    margin: 5px;
+}
+/* #four .bop{
+    border: 2px solid black;
+} */
+#four .top, #four .bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;   
+    margin-left: 100px;
+}
+#four img{
+    height: 25px;
+}
+#four a{
+    margin: 20px 0;
+    margin-left: 200px;
+    font-size: 14px;
+}
+#four a img{
+    height: 10px;
+    width: 35px;
+}
+/* END OF SECTION FOUR -- FOURTH SECTION */
+
+/* SECTION FIVE -- FIFTH SECTION */
+#five{
+    min-height: 40vh;
+}
+#five .box{
+    width: 180px;
+    height: 220px;
+    left: 130px;
+    padding-left: 15px;
+}
+#five .box h3{
+    font-size: 18px;
+    width: 80%;
+}
+#five .box input{
+    height: 25px;
+    width: 80px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+/* END OF SECTION FIVE -- FIFTH SECTION */
+
+/* SECTION SIX -- SIXTH SECTION */
+#six .first, #six .second, #six .third, #six .fourth{
+    padding: 0 15px;
+}
+#six h1{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+#six h2{
+    font-size: 12px;
+    line-height: 17px;
+}
+/* END OF SECTION SIX -- SIXTH SECTION */
+
+/* SECTION SEVEN -- SEVENTH SECTION */
+#seven{
+    min-height: 80vh;
+}
+#seven h1{
+    font-size: 20px;
+    margin: 20px 0;
+}
+#seven .top{
+    margin-bottom: 0px;
+}
+#seven span{
+    margin: 0 5px;
+}
+#seven img{
+    height: 60px;
+}
+/* END OF SECTION SEVEN -- SEVENTH SECTION */
+
+/* SECTION EIGHT -- EIGHT SECTION */
+#eight h1{
+    font-size: 22px;
+    width: 75%;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+#eight .box{
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+#eight .left, #eight .right{
+    width: 300px;
+    height: 180px;
+    margin: 10px 0;
+    padding-left: 40px;
+}
+/* #eight .up{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+} */
+#eight .up img{
+    height: 35px;
+}
+#eight h2{
+    font-size: 13px;
+    line-height: 20px;
+}
+#eight h3{
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+#eight h4{
+    font-size: 13px;
+}
+#eight .images img{
+    margin: 0 1px;
+    height: 2px;
+}
+#eight .next{
+    margin: 10px 0;
+    width: 300px;
+}
+#eight .next img{
+    margin: 0 8px;
+    height: 15px;
+}
+#eight .next .a{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+#eight .next .b{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+/* END OF SECTION EIGHT -- EIGHT SECTION */
+
+/* SECTION NINE -- NINTH SECTION */
+#nine{
+    min-height: 110vh;
+}
+#nine h1{
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+#nine .first{
+    width: 300px;
+    height: 180px;
+}
+#nine h2{
+    margin-bottom: 7px;
+    font-size: 14px;
+}
+#nine p{
+    line-height: 20px;
+    font-size: 13px;
+    width: 90%;
+}
+#nine .second{
+    margin: 5px 0;
+    height: 70px;
+    width: 300px;
+    padding: 0 30px;
+}
+#nine span{
+    height: 30px;
+    width: 35px;
+}
+/* END OF SECTION NINE -- NINTH SECTION */
+
+/* SECTION TEN -- TENTH SECTION */
+#ten h1{
+    font-size: 25px;
+    width: 70%;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+#ten .icons img{
+    margin-right: 10px;
+    height: 15px;
+}
+#ten h3{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+#ten h2{
+    margin-bottom: 25px;
+    font-size: 15px;
+    width: 80%;
+    line-height: 18px;
+}
+/* END OF SECTION TEN -- TENTH SECTION */
+
+/* SECTION FOOTER -- FOOTER SECTION */
+#footer .logo{
+    width: 80px;
+}
+#footer img{
+    height: 15px;
+}
+#footer a{
+    margin: 0 5px;
+    font-size: 10px;
+}
+#footer .copy{
+    width: 100px;
+}
+#footer h1{
+    font-size: 7px;
+}
+/* END OF SETION FOOTER -- FOOTER SECTION */
+/* END OF INDEX.HTML */
+
+/* SERVICES.HTML */
+/*  FIRST SECTION -- OUR SERVICES */
+#our .cent{
+    height: 250px;
+    width: 400px;
+}
+#our .cent img{
+    height: 250px;
+    width: 270px;
+}
+#our .ontop{
+    right: 20px;
+    height: 250px;
+    width: 270px;
+    padding: 0 15px;
+}
+#our h1{
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+#our h2{
+    font-size: 14.5px;
+    margin-bottom: 15px;
+    line-height: 18px;
+}
+#our button{
+    font-size: 13px;
+    height: 35px;
+    width: 100px;
+}
+/* END OF FIRST SECTION -- OUR SERVICES */
+
+/* SECOND SECTION -- AUTO SECTION */
+#auto{
+    min-height: 125vh;
+    flex-direction: column;
+}
+#auto .left{
+    height: 380px;
+    width: 280px;
+    padding-left: 20px;
+}
+#auto .left img{
+    height: 110px;
+    width: 240px;
+}
+#auto h1{
+    margin: 13px 0;
+    font-size: 20px;
+}
+#auto p{
+    line-height: 22px;
+    font-size: 15px;
+    width: 95%;
+    margin-bottom: 20px;
+}
+#auto .left a{
+    font-size: 13px;
+}
+#auto .left a img{
+    height: 10px;
+    width: 30px;
+}
+#auto .mid{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+}
+#auto .right{
+    display: flex;
+    margin-bottom: 10px;
+}
+#auto .box{
+    height: 110px;
+    width: 130px;
+    margin: 3px;
+    margin-bottom: 8px;
+}
+#auto .box h3{
+    margin-top: 15px;
+    font-size: 14px;
+}
+#auto .box img{
+    height: 25px;
+    width: 25px;
+}
+/* END OF SECOND SECTION -- AUTO SECTION */
+
+/* THIRD SECTION -- HOW SECTION */
+#how{
+    flex-direction: column;
+}
+#how .left{
+    width: 100%;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+#how .las{
+    display: flex;
+}
+#how h1{
+    font-size: 23px;
+    width: 90%;
+    line-height: 30px;
+    margin: 20px 0; 
+}
+#how h2{
+    font-size: 14px;
+    width: 70%;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+#how span{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    margin-right: 15px;
+}
+#how span img{
+    height: 12px;
+}
+#how .right{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#how .right img{
+    height: 280px;
+    width: 170px;
+    margin-right: 10px;
+}
+/* END OF THIRD SECTION -- HOW SECTION */
+
+/* FOURTH SECTION -- CAR SECTION */
+#car{
+    min-height: 100vh;
+    flex-direction: column;
+}
+#car .left{
+    width: 100%;
+    display: flex;
+    margin-left: 0;
+}
+#car .left img{
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 270px;
+}
+#car .right{
+    width: 100%;
+}
+#car h1{
+    font-size: 25px;
+    width: 80%;
+    line-height: 30px;
+    margin: 20px 0;
+}
+#car h2{
+    font-size: 14px;
+    line-height: 22px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+#car input{
+    height: 30px;
+    width: 120px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+/* END OF FOURTH SECTION -- CAR SECTION  */
+
+/* END OF SERVICES.HTML */
+}
+/* END OF MOBILE MODE */
+
+
+/* SMALLER MOBILE SCREEN -- 375PX */
+@media (max-width: 375px){
+    /* NAVBAR */
+nav{
+    width: 365px;
+}
+nav .logo{
+    width: 80px;
+}
+nav .logo img{
+    height: 13px;
+}
+nav .links{
+    width: 280px;
+}
+nav .links a{
+    margin: 0 5px;
+    font-size: 12px
+}
+nav hr{
+    display: none;
+}
+nav img{
+    display: none;
+}
+nav .call{
+    display: none;
+}
+/* END OF NAVBAR */
+
+/* INDEX.HTML -- INDEX.HTML */
+/* SECTION ONE -- FIRST SECTION */
+#one .left{
+    padding-left: 25px;
+}
+#one .left h1{
+    font-size: 18px;
+    width: 90%;
+    line-height: 28px;
+}
+#one .left input{
+    font-size: 13px;
+    width: 100px;
+    height: 33px;
+    margin-bottom: 23px;
+}
+#one .left .down h3{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+#one .left .down h2{
+    font-size: 14px;
+}
+#one .right{
+    justify-content: center;
+}
+#one .right .mid img{
+    margin-left: 0px;
+}
+/* END OF SECTION ONE -- FIRST SECTION */
+
+/* SECTION TWO -- SECOND SECTION */
+#two .left{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+#two .left h1{
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+#two .left .down h2{
+    font-size: 14px;
+}
+#two .left .down p{
+    width: 70%;
+    margin-bottom: 25px;
+    font-size: 13px;
+}
+#two .left a{
+    font-size: 12px;
+}
+#two .left a img{
+    height: 10px;
+    width: 31px;
+}
+#two .right input{
+    margin-bottom: 5px;
+}
+#two .right button{
+    font-size: 11px;
+    width: 100px;
+    height: 30px;
+}
+/* END OF SECTION TWO -- SECOND SECTION */
+
+}
+/* END OF SMALLER MOBILE SCREEN -- 375PX */
